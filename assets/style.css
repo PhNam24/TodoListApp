@@ -1,0 +1,100 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+button
+{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+.container
+{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(120deg, rgb(4, 4, 110), rgb(44, 2, 68));
+    padding: 10px;
+}
+
+.todo-app
+{
+    width: 100%;
+    max-width: 480px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.todo-app h1
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+    background-color: #e1e1e4;
+    border-radius: 40px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.todo-app input
+{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 15px;
+    font-weight: 14px   ;
+}
+
+.todo-app .addTaskBtn
+{
+    background-color: rgb(228, 97, 22);
+    border-radius: 40px;
+    padding: 16px 32px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.taskList h3
+{
+    margin-bottom: 15px;
+}
+.taskList ul li
+{
+    margin: 10px;
+}
+.taskList ul li div
+{
+    width: 80%;
+}
+
+.taskList button
+{
+    padding: 0 10px;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.taskList .changeBtn
+{
+    background-color: rgb(80, 80, 209);
+    padding: 16px 16px;
+}
+
+
+.taskList .deleteBtn
+{
+    background-color: rgb(201, 44, 44);
+    padding: 16px 16px;
+}
